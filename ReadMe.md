@@ -15,7 +15,7 @@
 **Frontend:** Vue.js, Leaflet, Bootstrap 4  
 **Backend:** Django, SQLite, REST API
 
-## 🚀 Запуск
+##  Запуск
 
 ### Backend
 ```bash
@@ -24,15 +24,7 @@ Frontend
 bash
 cd where-to-go-frontend
 python -m http.server 8000
-📡 API
+ API
 GET /places/ - список всех мест (GeoJSON)
 
 GET /places/<id>/ - детальная информация о месте
-
-##  Структура
-text
-TestDjango/
-├── appArtems/          # Django приложение
-├── where-to-go-frontend/ # Frontend
-├── media/              # Фотографии
-└── db.sqlite3          # База данных
