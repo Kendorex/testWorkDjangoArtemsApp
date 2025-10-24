@@ -18,12 +18,14 @@
 ##  Запуск
 
 ### Backend
-```bash
 python manage.py runserver
-Frontend
-bash
+
+### Frontend
 cd where-to-go-frontend
 python -m http.server 8000
+
+#проект запуститься на http://localhost:8000/
+
  API
 GET /places/ - список всех мест (GeoJSON)
 
