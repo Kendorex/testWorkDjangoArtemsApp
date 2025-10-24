@@ -1,0 +1,22 @@
+# Django
+*.pyc
+__pycache__/
+*.sqlite3
+db.sqlite3
+.env
+.env.local
+
+# Media files
+/media/
+!/media/.gitkeep
+
+# Static files
+/staticfiles/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
