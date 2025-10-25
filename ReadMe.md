@@ -30,3 +30,6 @@ python -m http.server 8000
 GET /places/ - список всех мест (GeoJSON)
 
 GET /places/<id>/ - детальная информация о месте
+
+### Ссылка на работающий сайт
+https://kendorex.pythonanywhere.com/
